@@ -82,5 +82,3 @@ C_Other_List = ["I`m ", "Real ", "Gay"]
 D_Other_List = copy(C_Other_List)
 print (C_Other_List is D_Other_List)        # False // 마찬가지
 
-
-

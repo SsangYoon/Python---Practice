@@ -1,0 +1,9 @@
+# -*- coding: utf-8 -*-
+'''
+Created on 2015. 8. 11.
+@attention: If문에 대해서 
+@author: Sangyun
+'''
+
+#If-Statement를 사용해보자 
+Current_State = {"Health" : "Bad", "Money" : None, "Card" : True}

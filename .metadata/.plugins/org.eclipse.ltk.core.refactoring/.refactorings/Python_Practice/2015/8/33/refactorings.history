@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Python_Practice/07_If-Statement/If-Statement_Practic.py&apos; to &apos;If-Statement_Practice.py&apos;" description="Rename resource &apos;If-Statement_Practic.py&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="07_If-Statement/If-Statement_Practic.py" name="If-Statement_Practice.py" stamp="1439231898469" updateReferences="true"/>
+</session>
