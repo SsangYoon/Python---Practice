@@ -1,0 +1,36 @@
+# -*- coding: utf-8 -*-
+'''
+Created on 2015. 8. 11.
+@attention: 변수에 대해 
+@author: Sangyun
+'''
+
+#변수를 만들어보자 
+#변수는 등호를 이용해서 만든다 
+Variable_A = "A"
+Variable_Gay = "Gay"
+Variable_Favorite = "EATING"        
+
+#변수는 레퍼런스이다 
+A = 10          # A -> 10        현재 10이라는 객채의 레퍼런스 카운트 : 1
+B = 10          # B -> 10        현재 10이라는 객체의 레퍼런스 카운트 : 2
+
+#Python 내부함수 is는 서로 같은 객체를 가리키고 있는지 아닌지를 판단해준다 
+print (A is B)  # True
+
+#변수 삭제하는 방법 
+del (A)         # A변수 삭제        현재 10이라는 객체의 레퍼런스 카운트 : 1
+del (B)         # B변수 삭제        현재 10이라는 객체의 레퍼런스 카운트 : 0
+
+#이렇게 메모리에 할당된 객체의 레퍼런스 카운트가 0이되면,
+#자동으로, 객체는 해제된다 - Garbage Collection
+
+
+(c, d) = ("I`m", "Gay")
+
+print (c)
+print (d)
+
+c[0] = "I`m gay"
+
+print (c)
