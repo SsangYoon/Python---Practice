@@ -1,0 +1,59 @@
+# -*- coding: utf-8 -*-
+'''
+Created on 2015. 8. 10.
+@attention: 데이터 타입의 참과 거
+@author: Sangyun
+'''
+
+def String_Check():
+    print ("")
+    print ("I`m Gay")
+    
+def List_Check():
+    print ([])
+    print ([1, 2, 3])
+    
+def Tuple_Check():
+    print (())
+    print ((1, 2))
+
+def Dictionary_Check():
+    print ({})
+    print ({1 : "One"})
+
+def Sets_Check():
+    print ({})
+    print ({1, 2, "asdf"})
+
+def Intergel_Check():
+    if (0):
+        print ("Fasle")
+    else:
+        print ("True")
+
+def None_Check():
+    if (None):
+        print ("False")
+    else:
+        print ("True")
+
+def Checker(Value):
+    if (Value) :
+        print ("True")
+    else :
+        print ("False")
+    
+if __name__ == '__main__':
+    String_Check ()
+    List_Check ()
+    Tuple_Check ()
+    Dictionary_Check ()
+    Sets_Check ()
+    Intergel_Check ()
+    None_Check ()
+    
+    
+    
+    
+    
+    

@@ -1,0 +1,9 @@
+# -*- coding: utf-8 -*-
+'''
+Created on 2015. 8. 10.
+@attention: 데이터 타입의 참과 거
+@author: Sangyun
+'''
+
+if __name__ == '__main__':
+    pass

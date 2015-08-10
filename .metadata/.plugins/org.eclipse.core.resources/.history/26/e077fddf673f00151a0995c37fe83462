@@ -1,0 +1,26 @@
+# -*- coding: utf-8 -*-
+'''
+Created on 2015. 8. 10.
+@attention: 데이터 타입의 참과 거
+@author: Sangyun
+'''
+
+def String_Check():
+    print ("")
+    print ("I`m Gay")
+    
+def List_Check():
+    print ([])
+    print ([1, 2, 3])
+    
+def Tuple_Check():
+    print (())
+    print ((1, 2))
+
+def Sets_Check():
+    print ({})
+    print ({1, 2, "asdf"})
+    
+    
+if __name__ == '__main__':
+    pass

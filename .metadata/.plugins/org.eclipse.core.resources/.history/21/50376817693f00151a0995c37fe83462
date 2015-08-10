@@ -1,0 +1,57 @@
+# -*- coding: utf-8 -*-
+'''
+Created on 2015. 8. 10.
+@attention: 데이터 타입의 참과 거짓 
+@author: Sangyun
+'''
+
+#변수의 참과 거짓을 판별할 함수 
+def Checker(Value):
+    if (Value) :
+        print ("True")
+    else :
+        print ("False")
+        
+def String_Check():
+    Checker ("")
+    Checker ("I`m Gay")
+    
+def List_Check():
+    Checker ([])
+    Checker ([1, 2, [3, 4]])
+    
+def Tuple_Check():
+    Checker (())
+    Checker ((1, 2, "Three"))
+
+def Dictionary_Check():
+    Checker ({})
+    Checker ({1 : "One"})
+
+def Sets_Check():
+    Checker ({})
+    Checker ({1, 2, "asdf"})
+
+def Intergel_Check():
+    Checker (0)
+    Checker (1)
+
+def None_Check():
+    Checker (None)
+    
+__name__ = "asdf"
+#Main 함수 
+if __name__ == '__main__':
+    String_Check ()
+    List_Check ()
+    Tuple_Check ()
+    Dictionary_Check ()
+    Sets_Check ()
+    Intergel_Check ()
+    None_Check ()
+    
+    
+    
+    
+    
+    
