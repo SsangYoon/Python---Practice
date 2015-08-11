@@ -1,0 +1,18 @@
+# -*- coding: utf-8 -*-
+'''
+Created on 2015. 8. 11.
+@attention: While-Statement Practice
+@author: Sangyun
+'''
+
+# While-Statement의 기본구조 
+# while <조건문> : 
+#    <수행할 문장1>
+#    <수행할 문장2>
+
+# While-Statement를 직접 사용해보자 
+Attack_Count = 0
+while Attack_Count < 10 : 
+    Attack_Count += 1
+    print ("%d번 공격!" % Attack_Count)
+    

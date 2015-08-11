@@ -1,0 +1,41 @@
+# -*- coding: utf-8 -*-
+'''
+Created on 2015. 8. 11.
+@attention: While-Statement Practice
+@author: Sangyun
+'''
+
+# While-Statement의 기본구조 
+# while <조건문> : 
+#    <수행할 문장1>
+#    <수행할 문장2>
+
+# While-Statement를 직접 사용해보자 
+Attack_Count = 0
+while Attack_Count < 10 : 
+    Attack_Count += 1
+    print ("%d번 공격!" % Attack_Count)
+    
+# 1번 공격!
+# 2번 공격!
+# 3번 공격!
+# 4번 공격!
+# 5번 공격!
+# 6번 공격!
+# 7번 공격!
+# 8번 공격!
+# 9번 공격!
+# 10번 공격!
+
+# 무한 루프
+# while True :                # 이렇게 되면 조건식이 항상 참이기 때문에
+#     print ("I`m GAY~!")     # 계속 돌아가게 된다 // 참고 : 실행시키면 안멈춤 
+
+    
+# Continue와 break
+Odd_Number = 0
+while Odd_Number < 10 :
+    Odd_Number += 1
+    if Odd_Number % 2 == 0 : 
+        continue
+    print ("%d" % Odd_Number)

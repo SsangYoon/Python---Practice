@@ -1,0 +1,13 @@
+'''
+Created on 2015. 8. 11.
+@attention: While을 배웠으면 구구단을 해야지!!
+@author: Sangyun
+'''
+
+def Multiplication_View(Number) : 
+    Multiple_Number = 1
+    
+    while Multiple_Number < 10 :
+        print ("%s X %s = %d" % (Number, Multiple_Number, Number * Multiple_Number))
+if __name__ == '__main__':
+    pass
