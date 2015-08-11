@@ -1,0 +1,36 @@
+# -*- coding: utf-8 -*-
+'''
+Created on 2015. 8. 11.
+@attention: About For-Statement
+@author: Sangyun
+'''
+# For-Statement의 기본구조 
+# for 변수 in 리스트(또는, 튜플, 문자열)
+#     <수행할 문장>
+
+# Example 
+Name_Tuple = ("Sangyoon", "Mouse", "GDoc", "Nutria")
+
+for Name in Name_Tuple :        # Name 변수가 Name_Tuple[0]~[-1]을 차례차례 참조한다  
+    print ("My Name : " + Name)
+    
+# My Name : Sangyoon
+# My Name : Mouse
+# My Name : GDoc
+# My Name : Nutria
+    
+# 참고 For-Statement안에 생성되었던 변수는 계속 남아 있다 
+print (Name)        # Nutria 
+
+
+
+
+# For-Statement의 Continue, Break 
+# 똑같다. 단, for문의 변수부의 인덱스가 자동으로 +1된다 
+Grade_List = [50, 10, 20 ,80, 50, 60]
+Number = 0
+for Grade in Grade_List : 
+    Number += 1
+    if Grade >= 50 : 
+        print ("%d번 학생 합격!" % Grade)
+    else : continue
