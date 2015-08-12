@@ -6,4 +6,10 @@
 		<item value="306" key="y"/>
 		<item value="386" key="height"/>
 	</section>
+	<section name="org.python.pydev.debug.ui.actions.RunEditorAsCustomUnitTestAction">
+		<item value="480" key="width"/>
+		<item value="652" key="x"/>
+		<item value="354" key="y"/>
+		<item value="343" key="height"/>
+	</section>
 </section>
