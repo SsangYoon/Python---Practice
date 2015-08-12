@@ -16,7 +16,7 @@ class Person:               # 배껴오기 신공!!
         
     def Show_State(self) : 
         print ("Name : " + self.Name)
-        print ("Height : " + str(self.Height))       # 문자열로 형변환 
+        print ("Height : " + str(self.Heigh))       # 문자열로 형변환 
         print ("Weight : " + str(self.Weight))
         
 def Sum(*NumberList):   # 여러개의 인자를 받아와서 튜플로 만들어줌 

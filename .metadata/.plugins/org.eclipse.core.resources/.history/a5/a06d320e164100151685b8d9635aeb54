@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+'''
+Created on 2015. 8. 13.
+@attention: About Module 
+@author: Sangyun
+'''
+import MyPythonModule
+
+
+I = MyPythonModule.Person()
+
+if __name__ == "__main__":
+    print ("Main")

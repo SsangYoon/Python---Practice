@@ -16,7 +16,7 @@ class Person:               # 배껴오기 신공!!
         
     def Show_State(self) : 
         print ("Name : " + self.Name)
-        print ("Height : " + str(self.Height))       # 문자열로 형변환 
+        print ("Height : " + str(self.Heigh))       # 문자열로 형변환 
         print ("Weight : " + str(self.Weight))
         
 def Sum(*NumberList):   # 여러개의 인자를 받아와서 튜플로 만들어줌 
@@ -36,6 +36,4 @@ if __name__ == "__main__":          # 만약 요놈이 없으면,
                                     # 아래에 있는 print가 실행되어 버린다 
                                     # __name__어트리 뷰트는 파이썬 인터프리터가
                                     # 이 파일을 직접 실행시켰을 때 __main__을 가진다 
-
-
-
+                    

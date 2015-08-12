@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+'''
+Created on 2015. 8. 13.
+@attention: About Module 
+@author: Sangyun
+'''
+import MyPythonModule       # MyPythonModule.py를 임포트시킴 (.py는 때야함) 
+from MyPythonModule import *    # 해당 모듈에서 모든함수를 임포트 시킴
+
+I = MyPythonModule.Person()
+
+if __name__ == "__main__":
+    print ("Main")
