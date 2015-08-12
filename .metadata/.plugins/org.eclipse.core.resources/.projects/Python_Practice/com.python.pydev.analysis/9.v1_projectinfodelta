@@ -1,0 +1,17 @@
+INSTUP12_Class.Class_Practice
+/Users/Sangyun/Documents/workspace/Python_Workspace/Python_Practice/12_Class/Class_Practice.py
+INFOS:&&1|1|2|0&&2|3|2|1&&2|4|2|1&&3|5|2|6&&3|7|2|6&&3|8|2|6&&1|9|2|1&&3|10|2|11&&2|3|2|11&&3|12|2|13&&2|14|2|11
+Person.HouseKim=11
+Set_State=4
+12_Class.Class_Practice=2
+Weight=8
+Name=5
+lastname=10
+Person.HouseKim.__init__=13
+Person.Set_State=6
+Height=7
+fullname=12
+__init__=3
+travel=14
+Person=1
+HouseKim=9

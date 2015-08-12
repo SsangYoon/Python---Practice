@@ -1,0 +1,11 @@
+'''
+Created on 2015. 8. 12.
+@attention: 파일입출력 
+@author: Sangyun
+'''
+
+File = open("Python_Text.txt", "w")
+
+File.write ("I`m not Gay")
+
+File.close ()

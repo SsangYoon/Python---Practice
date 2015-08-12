@@ -1,0 +1,68 @@
+'''
+Created on 2015. 8. 12.
+@attention: 파일입출력 
+@author: Sangyun
+'''
+
+# 'r' : 읽기
+# 'w' : 쓰기
+# 'a' : 추가 
+
+# 파일을 쓰는 방법  
+# Python_Text.txt가 없으면 새로운 파일 생성
+# 존재한다면, 비우고 새로 쓰기 시작 
+Write_File = open("/Users/Sangyun/Desktop/Python_Text.txt", "w")     
+
+for Number in range(1, 10) :
+    # Write는 Print와 다르게 자동개행을 하지 않는다 
+    Write_File.write ("I`m not Gay : %d\n" % Number)  # 데이터 입력 
+
+Write_File.close ()     # 파이썬이 알아서 닫아주지만 직접 닫아주자
+                        # 파일객체를 닫지않고 파일을 읽는 모드를 바꿔서 다시 열면 에러가 나기 때문이다 
+
+# 파일을 읽는 방법 
+# 읽을 때 파일이 없으면 에러 출력
+Read_File = open("/Users/Sangyun/Desktop/Python_Text.txt", 'r')
+while True :
+    Data =  Read_File.readline ()       # 현재 파일포인터의 줄하나를 반환하고 다음 줄로 포인터를 이동시킨다 
+    if not Data : break
+    print ("First Read Way - " + Data, end = '\b')    # 읽을 파일이 이미 개행이 되어있다 그러므로 백스페이스를 한번 해주자       
+Read_File.close ()      # 만약 닫지 않고 이전에 열었던 파일객체로 계속 읽는다면, 
+                        # 이전에 마지막으로 읽었던 자리를 포인터가 계속해서 가리키고 있기 때문에
+                        # 앞에서 부터 읽지 못한다 
+
+Read_File = open ("/Users/Sangyun/Desktop/Python_Text.txt", 'r')        
+Data_Lines = Read_File.readlines ()     # 각각의 줄요소를 갖는 리스트를 반환해준다 
+for Line in Data_Lines : 
+    print ("Second Read Way - " + Line, end = '\b')
+Read_File. close()
+
+Read_File = open ("/Users/Sangyun/Desktop/Python_Text.txt", 'r')        
+Data = Read_File. read()            # 파일 객체 전체를 문자열로 반환해준다 
+print ("Third Read Way - " + Data)
+Read_File.close ()
+
+# 파일을 추가하는 방법 
+Append_File = open("/Users/Sangyun/Desktop/Python_Text.txt", 'a')
+Append_File.write("But I`m Not Gay")
+Append_File.close()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+# -*- coding: utf--8 -*-
+'''
+Created on 2015. 8. 12.
+@attention: About Function 
+@author: Sangyun
+'''
+
+# 포풍저그 콩진호가 간다!!
+# 빠르게 가자 
+
+# 함수 정의법  
+# Retrun값을 넣어도 되고 안넣어도 된다
+# 매개인자도 넣어도 되고 안넣어도 된다
+# 매개인자를 *Value로 쓰게되면 여러개의 매개인자를 Value튜플로 만들어서 받아오게된다 
+# 디폴트값을 설정할 수 있다 
+def Hello_Function () :
+    print ("Hello")
+    
+def Number_Function (Number) : 
+    print ("Number : %d" % Number)
+
+def Return_Function () : 
+    return "GAAAAY"
+
+def Default_Function (Name, Info = "GAY") :
+
+# 함수 사용법 
+Hello_Function ()

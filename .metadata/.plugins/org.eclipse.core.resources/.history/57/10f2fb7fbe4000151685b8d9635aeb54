@@ -1,0 +1,13 @@
+'''
+Created on 2015. 8. 12.
+
+@author: Sangyun
+'''
+
+class Person:
+    def __init__(self) :     # 생성자 
+        
+    
+    
+    
+        

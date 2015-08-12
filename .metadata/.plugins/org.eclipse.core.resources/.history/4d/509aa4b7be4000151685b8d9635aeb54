@@ -1,0 +1,21 @@
+'''
+Created on 2015. 8. 12.
+
+@author: Sangyun
+'''
+
+class Person:
+    def __init__(self) :     # 생성자 
+        
+    def Set_State(self, Name, Height, Weight) :
+        self.Name = Name
+        self.Height = Height
+        self.Weight = Weight
+
+
+    class HouseKim:
+        lastname = "김"
+        def __init__(self, name):
+            self.fullname = self.lastname + name
+        def travel(self, where):
+            print("%s, %s여행을 가다." % (self.fullname, where))

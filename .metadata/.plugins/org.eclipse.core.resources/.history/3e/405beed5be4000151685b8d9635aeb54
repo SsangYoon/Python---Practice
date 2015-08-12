@@ -1,0 +1,15 @@
+'''
+Created on 2015. 8. 12.
+
+@author: Sangyun
+'''
+
+class Person :
+    def __init__(self) :     # 생성자 
+        
+    def Set_State(self, Name, Height, Weight) :
+        self.Name = Name
+        self.Height = Height
+        self.Weight = Weight
+
+
