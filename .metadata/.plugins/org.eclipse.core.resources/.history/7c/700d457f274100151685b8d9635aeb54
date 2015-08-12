@@ -1,0 +1,16 @@
+'''
+Created on 2015. 8. 13.
+@attention: Package_Practice
+@author: Sangyun
+'''
+
+# Package를 임포트 해보자 
+
+from Initialize import Initialize
+from .Game.Release import Release
+from .Game.Update import Update
+from .Game.Render import Render
+
+if __name__ == '__main__':
+    
+    pass

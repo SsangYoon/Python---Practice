@@ -4,3 +4,15 @@ MODULES_MANAGER_V2
 12_Class.Class_Practice|/Users/Sangyun/Documents/workspace/Python_Workspace/Python_Practice/12_Class/Class_Practice.py
 13_Module.Module_Practice|/Users/Sangyun/Documents/workspace/Python_Workspace/Python_Practice/13_Module/Module_Practice.py
 13_Module.MyPythonModule|/Users/Sangyun/Documents/workspace/Python_Workspace/Python_Practice/13_Module/MyPythonModule.py
+14_Package.Game.Data.Data|/Users/Sangyun/Documents/workspace/Python_Workspace/Python_Practice/14_Package/Game/Data/Data.py
+14_Package.Game.Data.__init__|/Users/Sangyun/Documents/workspace/Python_Workspace/Python_Practice/14_Package/Game/Data/__init__.py
+14_Package.Game.Initialize.Initialize|/Users/Sangyun/Documents/workspace/Python_Workspace/Python_Practice/14_Package/Game/Initialize/Initialize.py
+14_Package.Game.Initialize.__init__|/Users/Sangyun/Documents/workspace/Python_Workspace/Python_Practice/14_Package/Game/Initialize/__init__.py
+14_Package.Game.Release.Release|/Users/Sangyun/Documents/workspace/Python_Workspace/Python_Practice/14_Package/Game/Release/Release.py
+14_Package.Game.Release.__init__|/Users/Sangyun/Documents/workspace/Python_Workspace/Python_Practice/14_Package/Game/Release/__init__.py
+14_Package.Game.Render.Render|/Users/Sangyun/Documents/workspace/Python_Workspace/Python_Practice/14_Package/Game/Render/Render.py
+14_Package.Game.Render.__init__|/Users/Sangyun/Documents/workspace/Python_Workspace/Python_Practice/14_Package/Game/Render/__init__.py
+14_Package.Game.Update.Update|/Users/Sangyun/Documents/workspace/Python_Workspace/Python_Practice/14_Package/Game/Update/Update.py
+14_Package.Game.Update.__init__|/Users/Sangyun/Documents/workspace/Python_Workspace/Python_Practice/14_Package/Game/Update/__init__.py
+14_Package.Game.__init__|/Users/Sangyun/Documents/workspace/Python_Workspace/Python_Practice/14_Package/Game/__init__.py
+14_Package.Package_Practice|/Users/Sangyun/Documents/workspace/Python_Workspace/Python_Practice/14_Package/Package_Practice.py

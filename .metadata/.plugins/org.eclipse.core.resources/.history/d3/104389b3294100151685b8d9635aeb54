@@ -1,0 +1,28 @@
+'''
+Created on 2015. 8. 13.
+
+@author: Sangyun
+'''
+
+# Relative Package 접근자
+# . - 현재 디렉토리
+# .. - 부모 디렉토리 
+
+# Relative 접근
+from ..Data.Data import *
+
+class Initialize:
+    """
+    Initialize Class
+    """
+    def __init__(self):
+        '''
+        Constructor
+        '''
+    def Initialize_View(self):
+        print ("Initialize")
+    
+    def Load_Data(self):
+        LoadData = Data()
+        LoadData.Load_Data()
+        

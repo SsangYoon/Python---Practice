@@ -1,0 +1,17 @@
+'''
+Created on 2015. 8. 13.
+@attention: Package_Practice
+@author: Sangyun
+'''
+
+# Package를 임포트 해보자 
+# /Users/Sangyun/Documents/workspace/Python_Workspace/14_Package
+from Users.Sangyun.Documents.workspace.Python_Workspace.14.Package.Game.Initialize import Initialize
+from .Game.Release import Release
+from .Game.Update import Update
+from .Game.Render import Render
+
+Init_Value = Initialize()
+if __name__ == '__main__':
+    
+    pass
