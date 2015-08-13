@@ -1,0 +1,9 @@
+INSTUP15_Exception.Exception_Practice
+/Users/Sangyun/Documents/workspace/Python_Workspace/Python_Practice/15_Exception/Exception_Practice.py
+INFOS:&&2|1|2|0&&2|3|2|0&&2|4|2|0&&2|5|2|0&&2|6|2|0
+Except_Error=4
+ZeroDivision_Error=3
+Raise_Error=5
+15_Exception.Exception_Practice=2
+FileNotFound_Error=1
+Main=6

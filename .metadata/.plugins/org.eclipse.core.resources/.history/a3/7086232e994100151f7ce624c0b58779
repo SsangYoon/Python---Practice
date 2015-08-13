@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+'''
+Created on 2015. 8. 13.
+@attention: About Exception
+@author: Sangyun
+'''
+
+def Main() : 
+    FileOpen()
+    
+
+if __name__ == "__main__" :
+    Main()
+    
+    
+def FileOpen():
+    File = open("잘못된경로", 'r')

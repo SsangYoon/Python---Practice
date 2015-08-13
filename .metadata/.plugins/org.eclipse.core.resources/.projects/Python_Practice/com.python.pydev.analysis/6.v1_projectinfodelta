@@ -1,10 +1,6 @@
-INSTUP14_Package.Game.Initialize.Initialize
-/Users/Sangyun/Documents/workspace/Python_Workspace/Python_Practice/14_Package/Game/Initialize/Initialize.py
-INFOS:&&1|1|2|0&&2|3|2|1&&2|4|2|1&&2|5|2|1&&3|6|2|7
-Initialize.Load_Data=7
-14_Package.Game.Initialize.Initialize=2
-LoadData=6
-__init__=3
-Load_Data=5
-Initialize=1
-Initialize_View=4
+INSTUP15_Exception.Exception_Practice
+/Users/Sangyun/Documents/workspace/Python_Workspace/Python_Practice/15_Exception/Exception_Practice.py
+INFOS:&&2|1|2|0&&2|3|2|0
+15_Exception.Exception_Practice=2
+FileOpen=1
+Main=3
